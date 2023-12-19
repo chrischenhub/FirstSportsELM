@@ -15,7 +15,7 @@ https://drive.google.com/drive/folders/1PSYYWdUWiM5t0KTtlpwQ1YXBWRwV1JWi?usp=sha
 ## Pretrain Data 
 
 https://drive.google.com/drive/folders/1bZvWxLnmCDYJhgMDaWumr33KbyDKQUki?usp=sharing
-*train.bin ~8.4 Gb/4.5B tokens, val.bin ~4.1 Mb/2M tokens
+*train.bin ~8.4 Gb/4.5B tokens, val.bin ~4.1 Mb/2M tokens*
 
 ## Fine Tune Space
 1. Generate Tags, Questions and Respones from GPT-4
