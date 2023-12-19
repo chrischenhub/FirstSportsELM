@@ -1,6 +1,9 @@
 # FirstSportsELM
 ### The first ever Sports Expert Language Model
 
+![image](https://github.com/chrischenhub/FirstSportsELM/assets/99419764/76da05ca-5558-49d2-8139-ebf886330674)
+Prodly named as QuaterFrontGPT
+
 As avid sports enthusiasts, we’ve consistently observed a gap in the market for a dedicated
 large language model tailored to the sports domain. This research stems from our intrigue
 about the potential of a language model that is exclusively trained and fine-tuned on sports-
