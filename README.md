@@ -38,7 +38,9 @@ https://drive.google.com/drive/folders/1PSYYWdUWiM5t0KTtlpwQ1YXBWRwV1JWi?usp=sha
 1. Inference
 
 *python Inference.py YourQuestionHere*
+
 *python DefaultAnswer.py*
+
 *python RandomGPT2ChatBot.py*
 
 2. Plot Result
