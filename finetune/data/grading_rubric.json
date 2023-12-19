@@ -1,0 +1,42 @@
+{
+    "Accuracy and Factuality": {
+        "0": "Completely inaccurate and misleading.",
+        "1": "Mostly inaccurate, significant factual errors.",
+        "2": "Partially accurate, mix of correct and incorrect information.",
+        "3": "Mostly accurate, minor factual errors.",
+        "4": "Highly accurate, negligible errors.",
+        "5": "Fully accurate and factually impeccable."
+    },
+    "Relevance and Comprehension": {
+        "0": "Completely irrelevant or incomprehensible.",
+        "1": "Mostly irrelevant, major irrelevant sections.",
+        "2": "Partially relevant, some misconceptions.",
+        "3": "Mostly relevant, minor off-topic elements.",
+        "4": "Highly relevant, negligible irrelevant content.",
+        "5": "Completely relevant and deeply comprehended."
+    },
+    "Effectiveness: Balance between Completeness and Conciseness": {
+        "0": "Highly ineffective, lacks balance.",
+        "1": "Poorly effective, missing key details or too lengthy.",
+        "2": "Somewhat effective, unnecessary details or missing aspects.",
+        "3": "Moderately effective, fairly comprehensive and concise.",
+        "4": "Very effective, strong balance of thoroughness and succinctness.",
+        "5": "Exceptionally effective, perfectly balanced."
+    },
+    "Grammar and Clarity": {
+        "0": "Completely incorrect, numerous critical grammatical errors that hinder comprehension.",
+        "1": "Very poor, multiple grammatical errors that significantly impact understanding.",
+        "2": "Fair, some grammatical errors present but the text remains generally understandable.",
+        "3": "Good, minor grammatical errors that do not impede overall clarity.",
+        "4": "Very good, few insignificant grammatical errors, and the text is well-structured.",
+        "5": "Excellent, no grammatical errors detected."
+    },
+    "Creativity and Novelty": {
+        "0": "Not at all creative or novel.",
+        "1": "Barely creative, limited new information.",
+        "2": "Somewhat creative, some original thoughts.",
+        "3": "Moderately creative, balance of well-known and new insights.",
+        "4": "Very creative, majority new ideas.",
+        "5": "Exceptionally creative, unique and innovative."
+    }
+}
