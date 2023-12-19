@@ -10,11 +10,13 @@ into the unique nuances and demands of the sports industry
 ## Model Checkpoint File
 
 https://drive.google.com/drive/folders/1PSYYWdUWiM5t0KTtlpwQ1YXBWRwV1JWi?usp=sharing
+
 *put FineTune_ckpt.pt under model folder in finetune/model/ if you wish to proceed with inference*
 
 ## Pretrain Data 
 
 https://drive.google.com/drive/folders/1bZvWxLnmCDYJhgMDaWumr33KbyDKQUki?usp=sharing
+
 *train.bin ~8.4 Gb/4.5B tokens, val.bin ~4.1 Mb/2M tokens*
 
 ## Fine Tune Space
