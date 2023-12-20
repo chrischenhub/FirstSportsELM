@@ -1,7 +1,7 @@
 # FirstSportsELM
 ### The first ever Sports Expert Language Model
 
-![image](https://github.com/chrischenhub/FirstSportsELM/assets/99419764/76da05ca-5558-49d2-8139-ebf886330674)
+![image](https://github.com/chrischenhub/FirstSportsELM/assets/99419764/99126d3c-2749-4b0a-8615-2ee20259d365)
 QuaterFrontAI - Never give up even if you are only going a quater of a step forward
 
 As avid sports enthusiasts, we’ve consistently observed a gap in the market for a dedicated
