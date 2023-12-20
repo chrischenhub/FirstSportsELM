@@ -10,6 +10,9 @@ about the potential of a language model that is exclusively trained and fine-tun
 related data. We aim to assess its performance against generic language models, thus delving
 into the unique nuances and demands of the sports industry
 
+Here is a example QA from SportsDPT
+![5dc29abdc17ced70ca75e2da6aa5a90](https://github.com/chrischenhub/FirstSportsELM/assets/99419764/db5f6287-8d4f-4c43-9843-de70f726d32b)
+
 ## Model Checkpoint File
 
 https://drive.google.com/drive/folders/1PSYYWdUWiM5t0KTtlpwQ1YXBWRwV1JWi?usp=sharing
