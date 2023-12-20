@@ -2,7 +2,7 @@
 ### The first ever Sports Expert Language Model
 
 ![image](https://github.com/chrischenhub/FirstSportsELM/assets/99419764/76da05ca-5558-49d2-8139-ebf886330674)
-Proudly named as QuaterFrontDPT - Never give up even if you are only going a quater of a step forward
+QuaterFrontAI - Never give up even if you are only going a quater of a step forward
 
 As avid sports enthusiasts, we’ve consistently observed a gap in the market for a dedicated
 large language model tailored to the sports domain. This research stems from our intrigue
