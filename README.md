@@ -1,5 +1,6 @@
 # FirstSportsELM
 ### The first ever Sports Expert Language Model
+  Created by Chris Zexin Chen, Sean Xie, Chengxi Li.
 
 ![image](https://github.com/chrischenhub/FirstSportsELM/assets/99419764/99126d3c-2749-4b0a-8615-2ee20259d365)
 QuaterFrontAI - Never give up even if you are only going a quater of a step forward
