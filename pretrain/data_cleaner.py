@@ -79,8 +79,7 @@ def process_files(root_dir, excluded_dirs):
 
 
 
-#root_dir = './testfile'  
-root_dir = '/Users/chris/Documents/andscape_all_english_cleaned/'
+#root_dir = './testfile'
 
 excluded_dirs = ['not', 'no2'] 
 process_files(root_dir, excluded_dirs)
