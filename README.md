@@ -41,6 +41,9 @@ The second trial is a success and the parameters are all stored in pretrain/trai
 
 
 ## Fine Tune
+
+We used thousands of GPT4-generated Sports QA pairs to finetune our model.
+
 1. Generate Tags, Questions and Respones from GPT-4
 
 *python FineTuneDataGeneration.py api_key Numtag NumQuestion NumParaphrase NumAnswer*
