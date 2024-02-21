@@ -2,12 +2,14 @@
 ### The first ever Sports Expert Language Model
   Created by Chris Zexin Chen, Sean Xie, Chengxi Li.
   Email for question: zc2404@nyu.edu
-  
+
 As avid sports enthusiasts, we’ve consistently observed a gap in the market for a dedicated
 large language model tailored to the sports domain. This research stems from our intrigue
 about the potential of a language model that is exclusively trained and fine-tuned on sports-
 related data. We aim to assess its performance against generic language models, thus delving
 into the unique nuances and demands of the sports industry
+
+This model structure is built by Andrej Karpathy: https://github.com/karpathy/nanoGPT
 
 Here is a example QA from SportsDPT
 ![5dc29abdc17ced70ca75e2da6aa5a90](https://github.com/chrischenhub/FirstSportsELM/assets/99419764/db5f6287-8d4f-4c43-9843-de70f726d32b)
