@@ -1,6 +1,6 @@
 # FirstSportsELM
 ### The first ever Sports Expert Language Model
-  Created by Chris Zexin Chen, Sean Xie, Chengxi Li.
+  Created by Chris Zexin Chen, Sean Xie, and Chengxi Li.
   Email for question: zc2404@nyu.edu
 
 As avid sports enthusiasts, we’ve consistently observed a gap in the market for a dedicated
@@ -11,7 +11,7 @@ into the unique nuances and demands of the sports industry
 
 This model structure is built by Andrej Karpathy: https://github.com/karpathy/nanoGPT
 
-Here is a example QA from SportsDPT
+Here is an example QA from SportsDPT
 ![5dc29abdc17ced70ca75e2da6aa5a90](https://github.com/chrischenhub/FirstSportsELM/assets/99419764/db5f6287-8d4f-4c43-9843-de70f726d32b)
 
 ## Model Checkpoint File
@@ -40,7 +40,7 @@ The second trial is a success and the parameters are all stored in pretrain/trai
 
 
 
-## Fine Tune Space
+## Fine Tune
 1. Generate Tags, Questions and Respones from GPT-4
 
 *python FineTuneDataGeneration.py api_key Numtag NumQuestion NumParaphrase NumAnswer*
@@ -51,7 +51,7 @@ The second trial is a success and the parameters are all stored in pretrain/trai
 * NumParaphrase: number of question paraphrases, default 1, optional  
 * NumAnswer: number of answers, default 2, optional 
 
-2. Convert Json to TXT and Bin for fine-tune
+2. Convert Json to TXT and Bin for fine-tuning
 
 *python Json2Bin.py*
 
@@ -88,3 +88,6 @@ The second trial is a success and the parameters are all stored in pretrain/trai
 ![Alt text](image.png)
 
 ![Alt text](image-1.png)
+
+## Benchmark
+The entire pretrain and finetune process costs around 250 USD. ~200$ in GPU rentals and ~50$ in OpenAI API usage.
