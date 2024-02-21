@@ -92,5 +92,5 @@ We used thousands of GPT4-generated Sports QA pairs to finetune our model.
 
 ![Alt text](image-1.png)
 
-## Benchmark
+## Cost
 The entire pretrain and finetune process costs around 250 USD. ~200$ in GPU rentals and ~50$ in OpenAI API usage.
