@@ -2,9 +2,7 @@
 ### The first ever Sports Expert Language Model
   Created by Chris Zexin Chen, Sean Xie, Chengxi Li.
   Email for question: zc2404@nyu.edu
-![image](https://github.com/chrischenhub/FirstSportsELM/assets/99419764/99126d3c-2749-4b0a-8615-2ee20259d365)
-QuaterFrontAI - Never give up even if you are only going a quater of a step forward
-
+  
 As avid sports enthusiasts, we’ve consistently observed a gap in the market for a dedicated
 large language model tailored to the sports domain. This research stems from our intrigue
 about the potential of a language model that is exclusively trained and fine-tuned on sports-
