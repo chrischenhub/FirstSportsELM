@@ -60,9 +60,13 @@ https://drive.google.com/drive/folders/1bZvWxLnmCDYJhgMDaWumr33KbyDKQUki?usp=sha
 
 ## Benchmark
   Target: Sports DPT
+  
   Default: GPT2 replica finetuned by sports QA
+  
   Random: GPT2 size language model finetuned by general QA
+  
   Llama2: Llama2 7B finetuned by general QA
+  
 ![Alt text](image-2.png)
 
 ![Alt text](image.png)
