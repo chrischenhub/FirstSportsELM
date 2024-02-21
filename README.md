@@ -27,7 +27,9 @@ https://drive.google.com/drive/folders/1bZvWxLnmCDYJhgMDaWumr33KbyDKQUki?usp=sha
 ## Pretrain
 To replicate our model, you need to use train.bin and val.bin in this drive, which is processed and ready to train.
 We trained on a 4xA100 40GB node for 30 hrs to get a val loss ~2.36. Once you set up the environment, run the following:
-```$ torchrun --standalone --nproc_per_node=8 train.py config/train_gpt2.py```
+
+#```$ torchrun --standalone --nproc_per_node=8 train.py config/train_gpt2.py```
+
 ![image](https://github.com/chrischenhub/FirstSportsELM/assets/99419764/fdd474ef-c11e-4ae9-af58-4c2632bfcd5b)
 
 
