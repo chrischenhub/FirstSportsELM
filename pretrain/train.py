@@ -43,8 +43,7 @@ init_from = 'scratch' # 'scratch' or 'resume' or 'gpt2*'
 wandb_log = False # disabled by default
 wandb_project = 'owt'
 wandb_run_name = 'gpt2' # 'run' + str(time.time())
-# data
-dataset = 'openwebtext'
+#dataset = ''
 gradient_accumulation_steps = 5 * 4 # used to simulate larger batch sizes
 batch_size = 12 # if gradient_accumulation_steps > 1, this is the micro-batch size
 block_size = 1024
@@ -111,8 +110,10 @@ device_type = 'cuda' if 'cuda' in device else 'cpu' # for later use in torch.aut
 ptdtype = {'float32': torch.float32, 'bfloat16': torch.bfloat16, 'float16': torch.float16}[dtype]
 ctx = nullcontext() if device_type == 'cpu' else torch.amp.autocast(device_type=device_type, dtype=ptdtype)
 
-# poor man's data loader
+
 #data_dir = os.path.join('data', dataset)
+
+# I defined the data locally as train.bin and val.bin. You can change the name to whatever name you like
 train_data = np.memmap(os.path.join('train.bin'), dtype=np.uint16, mode='r')
 val_data = np.memmap(os.path.join('val.bin'), dtype=np.uint16, mode='r')
 def get_batch(split):
