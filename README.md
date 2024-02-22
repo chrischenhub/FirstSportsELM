@@ -34,11 +34,10 @@ We trained on a 4xA100 40GB node for 30 hrs to get a val loss ~2.36. Once you se
 
 You can tweak around with the parameters in train_gpt2.py. We had two experiments and the first one failed badly. 
 
-![image](https://github.com/chrischenhub/FirstSportsELM/assets/99419764/edd693ca-d67a-47fa-a96c-5117511b228d)
-
-![image](https://github.com/chrischenhub/FirstSportsELM/assets/99419764/5cfa55a7-f81b-43cf-a764-9c44656e2b6d)
+![image](https://github.com/chrischenhub/FirstSportsELM/assets/99419764/e99ee0bd-b49a-421b-808f-796ea90a3f32)
 
 The second trial is a success and the parameters are all stored in pretrain/train_gpt2.py
+
 ![image](https://github.com/chrischenhub/FirstSportsELM/assets/99419764/fdd474ef-c11e-4ae9-af58-4c2632bfcd5b)
 
 
