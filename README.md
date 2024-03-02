@@ -3,6 +3,9 @@
   Created by Chris Zexin Chen, Sean Xie, and Chengxi Li.
   Email for question: zc2404@nyu.edu
 
+###This model is now on Huggingface Space for you to play around!
+https://huggingface.co/spaces/Chrisneverdie/SportsDPT
+
 As avid sports enthusiasts, we’ve consistently observed a gap in the market for a dedicated
 large language model tailored to the sports domain. This research stems from our intrigue
 about the potential of a language model that is exclusively trained and fine-tuned on sports-
