@@ -3,7 +3,7 @@
   Created by Chris Zexin Chen, Sean Xie, and Chengxi Li.
   Email for question: zc2404@nyu.edu
 
-###This model is now on Huggingface Space for you to play around!
+### This model is now on Huggingface Space for you to play around!
 https://huggingface.co/spaces/Chrisneverdie/SportsDPT
 
 As avid sports enthusiasts, we’ve consistently observed a gap in the market for a dedicated
