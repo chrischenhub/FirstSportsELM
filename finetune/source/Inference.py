@@ -9,6 +9,17 @@ import tiktoken
 from model import GPTConfig, GPT
 import json
 import sys
+import argparse
+
+parser = argparse.ArgumentParser(description="Run Inference")
+
+parser.add_argument('Question', 
+                    type = str, 
+                    nargs='?', 
+                    default = None, 
+                    help = "Your question for inference")
+
+args = parser.parse_args()
 
 def GetAnswer(query):
     # -----------------------------------------------------------------------------
@@ -106,10 +117,10 @@ def IterAns(path = '../data/TargetAnswer.json'):
     return answers
 
 if __name__ == '__main__': 
-    if sys.argv[1]:
-        print(GetAnswer(sys.argv[1]))
+    if args.Question:
+        print(GetAnswer(args.Question))
     else:
-        IterAns()
+        print(IterAns())
     
 
 

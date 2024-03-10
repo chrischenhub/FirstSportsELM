@@ -1,7 +1,8 @@
 # FirstSportsELM
 ### The first ever Sports Expert Language Model
   Created by Chris Zexin Chen, Sean Xie, and Chengxi Li.
-  Email for question: zc2404@nyu.edu
+
+  Email for questions: zc2404@nyu.edu, xx2033@nyu.edu
 
 ### This model is now on Huggingface Space for you to play around!
 https://huggingface.co/spaces/Chrisneverdie/SportsDPT
@@ -21,7 +22,7 @@ Here is an example QA from SportsDPT
 
 https://drive.google.com/drive/folders/1PSYYWdUWiM5t0KTtlpwQ1YXBWRwV1JWi?usp=sharing
 
-*put FineTune_ckpt.pt under model folder in finetune/model/ if you wish to proceed with inference*
+*Please place the `FineTune_ckpt.pt` file into the model directory located at `finetune/model/` to proceed with the inference process.*
 
 ## Pretrain Data 
 
@@ -33,7 +34,9 @@ https://drive.google.com/drive/folders/1bZvWxLnmCDYJhgMDaWumr33KbyDKQUki?usp=sha
 To replicate our model, you need to use train.bin and val.bin in this drive, which is processed and ready to train.
 We trained on a 4xA100 40GB node for 30 hrs to get a val loss ~2.36. Once you set up the environment, run the following:
 
-```$ torchrun --standalone --nproc_per_node=4 train.py config/train_gpt2.py```
+```
+$ torchrun --standalone --nproc_per_node=4 train.py config/train_gpt2.py
+```
 
 You can tweak around with the parameters in train_gpt2.py. We had two experiments and the first one failed badly. 
 
@@ -50,37 +53,38 @@ The second trial is a success and the parameters are all stored in pretrain/trai
 We used thousands of GPT4-generated Sports QA pairs to finetune our model.
 
 1. Generate Tags, Questions and Respones from GPT-4
-
-*python FineTuneDataGeneration.py api_key Numtag NumQuestion NumParaphrase NumAnswer*
-
-* api_key: Your Api Key
-* Numtag: number of tags, default 50, optional
-* NumQuestion: number of questions, default 16, optional   
-* NumParaphrase: number of question paraphrases, default 1, optional  
-* NumAnswer: number of answers, default 2, optional 
+```
+python FineTuneDataGeneration.py YourAPIKey --Numtag 50 --NumQuestion 16 --NumParaphrase 1 --NumAnswer 2
+```
 
 2. Convert Json to TXT and Bin for fine-tuning
-
-*python Json2Bin.py*
-
+```
+python Json2Bin.py
+```
 3. Fine Tune OmniSportsGPT
-
-*python train.py FineTuneConfig.py*
-
+```
+python train.py FineTuneConfig.py
+```
 
 ## Ask Your Question!
 
 1. Inference
 
-*python Inference.py YourQuestionHere*
+```
+# Getting an answer from our model!
+python Inference.py --Question YourQuestionHere  
 
-*python DefaultAnswer.py*
+# Getting an answer from a GPT-2 model fine-tuned with sports-related Q&A
+python DefaultAnswer.py #
 
-*python RandomGPT2ChatBot.py*
+# Getting an answer from a general-purpose GPT-2 model fine-tuned by third parties
+python RandomGPT2ChatBot.py
+```
 
 2. Plot Result
-
-*python plot.py*
+```
+python plot.py
+```
 
 ## Benchmark
   Target: Sports DPT

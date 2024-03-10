@@ -4,6 +4,36 @@ from openai import OpenAI
 import time
 import json
 import re
+import argparse
+
+parser = argparse.ArgumentParser(description="Fine Tune Data Generation")
+
+parser.add_argument('api_key', 
+                    type = str, 
+                    help = "Your API Key")
+
+parser.add_argument('--Numtag', 
+                    type = int, 
+                    default = 50, 
+                    help = "Number of tags, default 50, optional")
+
+parser.add_argument('--NumQuestion', 
+                    type = int, 
+                    default = 16, 
+                    help = "Number of questions, default 16, optional")
+
+parser.add_argument('--NumParaphrase', 
+                    type = int, 
+                    default = 1, 
+                    help = "Number of question paraphrases, default 1, optional")
+
+parser.add_argument('--NumAnswer', 
+                    type = int, 
+                    default = 2, 
+                    help = "Number of answers, default 2, optional")
+
+# Parse the arguments
+args = parser.parse_args()
 
 #%%
 # Function to generate tags
@@ -135,12 +165,12 @@ def JsonStore(dir, JsonData):
 
 #%%
 if __name__ == '__main__': 
-    api_key = sys.argv[1]
+    api_key = args.api_key
 
-    NumTag = int(sys.argv[2]) if len(sys.argv) > 2 else 50
-    NumQuestion = int(sys.argv[3]) if len(sys.argv) > 3 else 16
-    NumParaphrase = int(sys.argv[4]) if len(sys.argv) > 4 else 1
-    NumAnswer = int(sys.argv[5]) if len(sys.argv) > 5 else 2
+    NumTag = args.Numtag
+    NumQuestion = args.NumQuestion
+    NumParaphrase = args.NumParaphrase
+    NumAnswer = args.NumAnswer
 
     client = OpenAI(api_key = api_key)
     TagList = Tag2List(TagGeneration(client, NumTag))
